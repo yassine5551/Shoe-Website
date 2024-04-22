@@ -26,7 +26,7 @@ export default function Hero() {
           <img
             src="/img3.png"
             alt=""
-            className="rotate-[30deg] lg:w-auto w-4/5 absolute lg:pl-48 lg:pb-32 pb-16 z-10"
+            className="rotate-[35deg] lg:w-auto w-4/5 absolute lg:pl-48 lg:pb-32 pb-16 z-10"
           />
         </div>
         <div className="lg:absolute lg:w-1/3">
@@ -39,15 +39,15 @@ export default function Hero() {
           </p>
         </div>
         <div className="rounded-full shadow-2xl bg-gradient-to-r from-color1 to-color2 h-40 w-40 absolute right-[10px]  lg:mt-32 lg:flex hidden justify-center items-center">
-          <div className="h-32 w-3h-32 rounded-full border border-solid border-gray-200">
-            <img src="/img4.png" alt="" className="w-full h-full m-auto" />
+          <div className="h-42 w-3h-42 rounded-full  ">
+            <img src="/img3.png" alt="" className="w-full h-full m-auto" />
             <button className="bg-dark text-white px-2 rounded-lg text-sm font-semibold absolute bottom-10 left-0">
               $100.00
             </button>
-            <button className="text-white bg-gradient-to-r from-color1 to-color2 rounded-full shadow-2xl absolute w-10 h-10 top-8 right-0 z-10 flex items-center justify-center">
+            <button className="text-white bg-gradient-to-r from-color1 to-color2 rounded-full shadow-2xl absolute w-10 h-10 top-0 right-0 z-10 flex items-center justify-center">
               <HiPlus size={20} />
             </button>
-            <p className="uppercase font-bold absolute top-[4.6rem] right-5">
+            <p className="uppercase font-bold absolute top-[0.6rem] right-12">
               AIR <span className="text-white">Jordan</span>
             </p>
           </div>
