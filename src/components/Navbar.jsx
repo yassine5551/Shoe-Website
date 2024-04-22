@@ -38,7 +38,7 @@ export default function Navbar() {
             </div>
             {dropdown ? (
               <div>
-                <MdClose onClick={showDropdown}  className="lg:hidden text-[22px] cursor-pointer text-black" />
+                <MdClose onClick={showDropdown} className="lg:hidden text-[22px] cursor-pointer text-black" />
               </div>
             ) : (
               <div>
