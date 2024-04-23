@@ -3,12 +3,23 @@ import { HiMenuAlt3, HiOutlineShoppingBag } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { useState } from "react";
 
+
+
+// import { IoMoon } from "react-icons/io5";
+// import { IoSunny } from "react-icons/io5";
+
 export default function Navbar() {
   const [dropdown, setDropdown] = useState(false);
 
   const showDropdown = () => {
     setDropdown(!dropdown);
   };
+
+  // const [dark, setDark] = useState(false);
+  //   const toggleDark = () => {
+  //       setDark(!dark);
+  //       document.body.classList.toggle("dark");
+  //   }
 
   return (
     <>
@@ -27,6 +38,14 @@ export default function Navbar() {
               <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Review</a>
               <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Contact</a>
               <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Support</a>
+              {/* <a onClick={() => toggleDark()} className= "text-black dark:text-white">
+                    {
+                        dark && <IoSunny />
+                    }
+                    {
+                        !dark && <IoMoon />
+                    }
+                </a> */}
             </ul>
             <div className="flex gap-4 max-lg:hidden"> 
               <button className="bg-dark rounded-full shadow h-10 w-10 outline-none text-white hover:bg-white hover:text-dark cursor-pointer text-base">
