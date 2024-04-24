@@ -31,7 +31,7 @@ export default function Navbar() {
                 <h2 data-aos="slide-right"  className="text-white font-bold text-lg cursor-pointer">Shoes</h2>
               </div>
             </div>
-            <ul className="flex items-center xl:gap-12 gap-x-4 max-lg:hidden">
+            <ul data-aos-once="true" className="flex items-center xl:gap-12 gap-x-4 max-lg:hidden">
               <a href="#" data-aos="zoom-in-right" data-aos-delay="300" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
               <a href="#" data-aos="zoom-in-right" data-aos-delay="500" className="leading-normal no-underline text-white text-lg hover:text-dark">Catalogs</a>
               <a href="#" data-aos="zoom-in-right" data-aos-delay="700" className="leading-normal no-underline text-white text-lg hover:text-dark">Brands</a>
