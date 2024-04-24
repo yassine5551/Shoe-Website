@@ -12,7 +12,7 @@ export default function Hero() {
             NIKE
           </p>
         </div>
-        <div className="h-full flex justify-center items-center w-full overflow-hidden">
+        <div data-aos="slide-down" data-aos-duration="2500" data-aos-anchor-placement="top-center" className=" h-full flex justify-center items-center w-full overflow-hidden">
           <div className="bg-dark  rounded-full shadow relative lg:w-96 lg:h-96 w-64  h-64">
             <div className="flex flex-col items-center justify-center bg-gradient-to-r from-color1 to-color2  rounded-full p-4 absolute top-0 z-20">
               <p className="text-sm text-white ">promo: nike</p>
@@ -31,14 +31,14 @@ export default function Hero() {
         </div>
         <div className="lg:absolute lg:w-1/3">
           <p className="text-gray-500 text-xl font-bold">02</p>
-          <h2 className="text-5xl text-white font-bold py-8 ">brand shoes.</h2>
-          <p className="text-white">
+          <h2 data-aos="fade-down" data-aos-duration="3000"   className="text-5xl text-white font-bold py-8 ">brand shoes.</h2>
+          <p data-aos="fade-up" data-aos-duration="3000"  className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Sunt and
             praesentium maxime illum.
           </p>
         </div>
-        <div className="rounded-full shadow-2xl bg-gradient-to-r from-color1 to-color2 h-40 w-40 absolute right-[10px]  lg:mt-32 lg:flex hidden justify-center items-center">
+        <div data-aos="zoom-in-left" data-aos-duration="2000"  className="rounded-full shadow-2xl bg-gradient-to-r from-color1 to-color2 h-40 w-40 absolute right-[10px]  lg:mt-32 lg:flex hidden justify-center items-center">
           <div className="h-42 w-3h-42 rounded-full  ">
             <img src="/img3.png" alt="" className="w-full h-full m-auto" />
             <button className="bg-dark text-white px-2 rounded-lg text-sm font-semibold absolute bottom-10 left-0">

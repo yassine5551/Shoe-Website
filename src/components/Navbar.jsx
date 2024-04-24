@@ -28,16 +28,16 @@ export default function Navbar() {
           <div className="lg:w-4/5 w-11/12 mx-auto h-full flex justify-between items-center">
             <div className="flex flex-col gap-y-4">
               <div className="flex items-center gap-x-2 ">
-                <h2 className="text-white font-bold text-lg cursor-pointer">Shoes</h2>
+                <h2 data-aos="slide-right"  className="text-white font-bold text-lg cursor-pointer">Shoes</h2>
               </div>
             </div>
             <ul className="flex items-center xl:gap-12 gap-x-4 max-lg:hidden">
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Catalogs</a>
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Brands</a>
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Review</a>
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Contact</a>
-              <a href="#" className="leading-normal no-underline text-white text-lg hover:text-dark">Support</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="300" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="500" className="leading-normal no-underline text-white text-lg hover:text-dark">Catalogs</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="700" className="leading-normal no-underline text-white text-lg hover:text-dark">Brands</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="900" className="leading-normal no-underline text-white text-lg hover:text-dark">Review</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="1100" className="leading-normal no-underline text-white text-lg hover:text-dark">Contact</a>
+              <a href="#" data-aos="zoom-in-right" data-aos-delay="1300" className="leading-normal no-underline text-white text-lg hover:text-dark">Support</a>
               {/* <a onClick={() => toggleDark()} className= "text-black dark:text-white">
                     {
                         dark && <IoSunny />
@@ -47,7 +47,7 @@ export default function Navbar() {
                     }
                 </a> */}
             </ul>
-            <div className="flex gap-4 max-lg:hidden"> 
+            <div data-aos="zoom-in-left" data-aos-delay="1500" className="flex gap-4 max-lg:hidden"> 
               <button className="bg-dark rounded-full shadow h-10 w-10 outline-none text-white hover:bg-white hover:text-dark cursor-pointer text-base">
                 <HiOutlineShoppingBag className="w-full h-full p-2"/>
               </button>

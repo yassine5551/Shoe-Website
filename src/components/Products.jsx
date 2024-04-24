@@ -9,7 +9,7 @@ export default function Products() {
   return (
     <div className="bg-main_dark">
       <div className="xl:w-4/5 max-w-[1400px] px-6 mx-auto py-8 ">
-        <div data-aos="fade-down" data-aos-duration="3000">
+        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once="true">
           <h2 className="text-4xl text-white font-semibold py-6 ">Products</h2>
           <div className="flex lg:flex-row  flex-col items-center justify-between pt-12 pb-6 gap-8  ">
             <div className="flex items-center">
